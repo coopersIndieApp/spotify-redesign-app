@@ -98,7 +98,6 @@ function Player({ accessToken, trackUri }) {
         token={accessToken}
         showSaveIcon
         callback={(state) => {
-          console.log(state);
           setPlay(state?.isPlaying);
         }}
         play={play}
